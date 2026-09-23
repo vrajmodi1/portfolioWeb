@@ -5,7 +5,7 @@ const Loader: React.FC = () => {
     <>
       <div id="loader" aria-hidden="true">
         <div className="top" style={{ alignItems: 'center' }}>
-          <img src="/favicon.svg" alt="VM Logo" style={{ height: '32px', width: 'auto', display: 'block' }} />
+
           <span className="mono">VM. / 2026</span>
         </div>
         <div className="loader-center">

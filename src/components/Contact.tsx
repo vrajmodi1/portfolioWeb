@@ -89,7 +89,7 @@ const Contact: React.FC = () => {
               <textarea ref={msgRef} id="fMsg" placeholder="Tell me about your project" required></textarea>
             </label>
             <div className="form-footer">
-              <button className="btn-submit" type="submit">Send message <span aria-hidden="true">↗</span></button>
+              <button className="btn-submit" type="submit">Send message <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft: '4px'}}><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></button>
               <p className="note" id="formNote" role="status" ref={noteRef}>
                 This opens a pre-filled Gmail draft to Vraj.
               </p>

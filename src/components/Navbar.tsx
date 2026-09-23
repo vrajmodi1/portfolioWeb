@@ -3,21 +3,21 @@ import React from 'react';
 const Navbar: React.FC = () => {
   return (
     <header className="nav">
-      <a className="logo" href="#top" aria-label="Vraj Modi, back to top">
-        <img src="/favicon.svg" alt="VM Logo" style={{ height: '36px', width: 'auto', display: 'block' }} />
+      <a className="logo" href="#top" aria-label="Vraj Modi, back to top" style={{ textDecoration: 'none' }}>
+        <span style={{ fontWeight: 800, fontSize: '1.4rem', color: '#fff', letterSpacing: '-0.02em' }}>VM.</span>
       </a>
       <nav aria-label="Primary">
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#education">Recognition</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#work">WORK</a></li>
+          <li><a href="#education">RECOGNITION</a></li>
+          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
       <div style={{ display: 'flex', gap: '12px' }}>
-        <a className="pill" href="/Vraj_Modi_Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
-        <a className="pill" href="#contact">Let's talk</a>
+        <a className="pill solid" style={{ textTransform: 'uppercase' }} href="#contact">LET'S TALK</a>
       </div>
     </header>
   );
