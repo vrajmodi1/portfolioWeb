@@ -4,11 +4,17 @@ const Loader: React.FC = () => {
   return (
     <>
       <div id="loader" aria-hidden="true">
-        <div className="top">
-          <span className="mono">Initializing experience</span>
+        <div className="top" style={{ alignItems: 'center' }}>
+          <img src="/favicon.svg" alt="VM Logo" style={{ height: '32px', width: 'auto', display: 'block' }} />
           <span className="mono">VM. / 2026</span>
         </div>
-        <div className="count" id="loadCount">000</div>
+        <div className="loader-center">
+          <div className="center-text-logo">
+            <span className="char" style={{ animationDelay: '0s' }}>V</span>
+            <span className="char" style={{ animationDelay: '0.15s' }}>M</span>
+            <div className="logo-dot" style={{ animationDelay: '0.3s' }}></div>
+          </div>
+        </div>
         <div className="bar" id="loadBar"></div>
       </div>
       <div className="cur" id="cur"></div>

@@ -50,13 +50,14 @@ const Skills: React.FC = () => {
                   </ul>
                 </div>
                 <div>
-                  <h3>Languages &amp; tools</h3>
+                  <h3>Languages, tools &amp; platforms</h3>
                   <ul className="chips">
                     <li className="chip">Java</li>
                     <li className="chip">Python</li>
                     <li className="chip">C</li>
                     <li className="chip">Git</li>
                     <li className="chip">GitHub</li>
+                    <li className="chip">Vercel</li>
                   </ul>
                 </div>
                 <div>

@@ -6,6 +6,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Work from './components/Work';
 import Recognition from './components/Recognition';
+import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import { initEffects } from './utils/initEffects';
@@ -36,6 +37,7 @@ function App() {
         <Skills />
         <Work />
         <Recognition />
+        <Resume />
         <Contact />
       </main>
 

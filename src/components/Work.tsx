@@ -10,15 +10,12 @@ const Work: React.FC = () => {
           A team-built payroll platform, a live website for a wedding photography studio, and a multi-city trip planner. Every project links to its live site or code.
         </p>
 
-        <div className="wk-head">
-          <span className="mono">Project</span>
-          <span className="mono">Status / Links</span>
-        </div>
+
 
         <article className="row-p rv fade-in">
           <span className="n">01</span>
           <div>
-            <h3>Payroll 360</h3>
+            <h3>PeoplePay360</h3>
             <p>
               PeoplePay360 is an HR and payroll platform that turns employee, contract, schedule, attendance and time-off data into payruns and payslips, with role-based access for employees, HR managers, payroll users and admins. I built parts of the React front end: the application shell with role-based access, and the contracts and working-schedule screens.
             </p>
