@@ -21,7 +21,7 @@ const About: React.FC = () => {
 
         <div className="stats-banner rv fade-in">
           <div className="stat">
-            <b>8.92</b>
+            <b>8.98</b>
             <span className="mono">CPI &middot; B.E. CS</span>
           </div>
           <div className="stat">

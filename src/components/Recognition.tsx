@@ -76,7 +76,7 @@ const Recognition: React.FC = () => {
             <div className="timeline-content">
               <div className="timeline-header">
                 <span className="yr mono">2024 – 2028</span>
-                <span className="badge grad">CPI 8.92</span>
+                <span className="badge grad">CPI 8.98</span>
               </div>
               <h3>B.E. in Computer Science</h3>
               <p className="role">New L.J. Institute of Engineering &amp; Technology</p>
